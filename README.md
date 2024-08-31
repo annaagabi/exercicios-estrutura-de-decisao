@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Exercícios de expressões ternárias, funções com if, else, e switch.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1. **Exercícios de Operador Ternário**
 
-## Available Scripts
+**Exercício 1: Verificação de Paridade**
 
-In the project directory, you can run:
+Escreva um código que verifique se um número é par ou ímpar usando o operador ternário.
 
-### `npm start`
+**Exercício 2: Verificação de Desconto**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dada a variável
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+clienteFidelidade
+```
 
-### `npm test`
+, use um operador ternário para definir o valor do desconto (10% para clientes fiéis, 5% para novos clientes).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. **Exercícios de Funções com `if` e `else`**
 
-### `npm run build`
+**Exercício 1: Avaliação de Notas**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crie uma função que receba uma nota como parâmetro e retorne "Aprovado" se a nota for maior ou igual a 60, e "Reprovado" caso contrário.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Exercício 2: Verificação de Número Positivo/Negativo**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Crie uma função que receba um número e retorne "Positivo", "Negativo" ou "Zero".
 
-### `npm run eject`
+### 3. **Exercícios de Funções com `switch`**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Exercício 1: Verificação de Mês**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Crie uma função que recebe um número de 1 a 12 e retorne o nome do mês correspondente.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Exercício 2: Classificação de Níveis**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Crie uma função que recebe uma string (
 
-## Learn More
+```
+"iniciante"
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+,
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+"intermediário"
+```
 
-### Code Splitting
+,
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+"avançado"
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+) e retorne uma mensagem apropriada de acordo com o nível.
