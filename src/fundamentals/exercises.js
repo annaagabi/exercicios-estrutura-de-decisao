@@ -89,7 +89,7 @@ function validaNota2(nota){
 
 }
 
-// validaNota(62)
+// validaNota2(62)
 
 
 /* Exercício 2: Verificação de Número Positivo/Negativo
@@ -108,6 +108,105 @@ function verificaNum(num){
     }
 }
 
-verificaNum(0)
-verificaNum(4)
-verificaNum(-9)
+// verificaNum(0)
+// verificaNum(4)
+// verificaNum(-9)
+
+/* Explicação Switch */
+
+// O switch case é usado quando há mais de quatro condições
+
+function diaDaSemana(dia){
+    switch(dia){
+        case 1:
+            return 'Domingo'
+        case 2:
+            return 'Segunda'
+        case 4:
+            return 'Terça'
+        case 5:
+            return 'Quarta'
+        case 6:
+            return 'Quinta'
+        case 7:
+            return 'Sexta'
+    }
+}
+
+// console.log(diaDaSemana())
+
+
+/* 3. Exercícios de Funções com switch*/
+
+/* Exercício 1: Verificação de Mês
+Crie uma função que recebe um número de 1 a 12 e retorne o nome do mês correspondente. */
+
+function verificaMes(mes){
+    switch (mes){
+        case 1:
+            return "Janeiro"
+            // break
+        
+        case 2:
+            return "Fevereiro"
+            // break
+
+        case 3:
+            return "Março"
+            // break
+
+        case 4:
+            return "Abril"
+            // break
+        case 5:
+            return "Maio"
+            // break
+        case 6:
+            return "Junho"
+            // break
+        case 7:
+            return "Julho"
+            // break
+        case 8:
+            return "Agosto"
+            // break
+        case 9:
+            return "Setembro"
+            // break
+        case 10:
+            return "Outubro"
+            // break
+        case 11:
+            return "Novembro"
+            // break
+        case 12:
+            return "Dezembro"
+            // break
+        default:
+            return "Insira um número válido"
+        
+    }
+}
+
+// console.log(verificaMes(2))
+
+/* Exercício 2: Classificação de Níveis
+Crie uma função que recebe uma string ("iniciante", "intermediário", "avançado") e retorne uma mensagem apropriada de acordo com o nível. */
+
+function verificaNivel(nivel){
+
+    const nivelLower = nivel.toLowerCase()
+    
+    switch(nivelLower){
+        case ("iniciante"):
+            return 'Você está no nível iniciante'
+        case ("intermediário"):
+            return 'Você está no nível intermediário'
+        case ("avançado"):
+            return 'Você está no nível avançado'
+        default:
+            return 'Digite um nível válido'
+    }
+}
+
+console.log(verificaNivel("AVANÇADO"))
